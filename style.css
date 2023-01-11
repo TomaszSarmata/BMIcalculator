@@ -1,0 +1,52 @@
+
+body {
+    margin-left: 50px;
+}
+
+.form-container {
+    width: 200px;
+    border: 1px solid grey;
+    padding:20px;
+    border-radius: 5px;
+}
+
+.form-container:hover {
+    background-color: whitesmoke;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.myBtn {
+    width: 80px;
+    border-radius: 5px;
+}
+
+.myBtn:hover {
+    font-size: 16px;
+    background-color: lightblue;
+}
+
+input:hover {
+    border: solid green;
+}
+
+.invisible {
+    display: none;
+}
+
+#guide {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+
+.result-field {
+    font-size: 22px;
+    font-weight: bold;
+}
